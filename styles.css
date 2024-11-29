@@ -1,0 +1,300 @@
+.header{
+    position: relative;
+    background-color: #ffffff;
+    width: 80vw;
+    height: 2300px;
+    border: 3px black solid;
+    left: 10vw;
+    right: 10vw;
+    top: -8px;
+    z-index: 9999;
+}
+
+.judul{
+    position: fixed;
+    width: 80vw;
+    height: 100px;
+    top: -10px;
+    background-color: wheat;
+    z-index: 9999;
+    border-bottom: 3px black solid;
+}
+
+.judul h1{
+    position: relative;
+    color: #6b4329;
+    font-size: xx-large;
+    font-style: italic;
+    left: 50px;
+}
+
+.judul h1 span{
+    font-family: cursive;
+    color: #644442;
+}
+
+.navbar ul li{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0;
+    margin-right: 150px;
+    top: -3px;
+    left: 300px;
+    font-size: 20px;
+    font-family: monospace;
+    z-index: 9999;
+}
+
+.navbar a:hover{
+    background-color: #573c33;
+    border-radius: 20%;
+    color: #ffffff;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    position: fixed;
+    color: #573c33;
+}
+
+.logo img{
+    position: fixed;
+    height: 84px;
+    width: auto;
+    left: 76vw;
+    top: -3px;
+    z-index: 9999;
+}
+
+.quotes{
+    background-image: url(doodle.jpg);
+    width: fit-content;
+    height: 200px;
+    border-bottom: 3px black solid;
+}
+
+.quotes h3{
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+    left: 1vw;
+    text-shadow: 4px 3px 0px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.quotes h3 span{
+    color: rgb(255, 253, 112);
+    font-style: italic;
+    text-shadow: 4px 3px 0px black;
+    font-family: cursive;
+}
+
+.category ul li{
+    position: relative;
+    display: inline-block;
+    background-color: #573c33;
+    border-radius: 50%;
+    padding: 20px;
+    left: 25vw;
+    top: 50px;
+    font-size: 40px;
+    font-family: papyrus;
+}
+
+.category ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.pastries h1{
+    position: absolute;
+    top: 450px;
+    left: 33vw;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.sweets{
+    position: relative;
+    top: 200px;
+    width: 60vw;
+    left: 15vw;
+}
+
+
+.sweets .donut{
+    position: relative;
+    right: 10vw;
+    top: 15px;
+    height: 210px;
+    width: auto;
+}
+
+.sweets .cookies{
+    height: 150px;
+    width: auto;
+}
+
+.sweets .pretzel{
+    position: relative;
+    left: 7vw;
+    height: 180px;
+    width: auto;
+}
+
+.sweets .shortcake{
+    position: relative;
+    right: 10vw;
+    top: 60px;
+    height: 180px;
+    width: auto;
+}
+
+.sweets .macaron{
+    position: relative;
+    top: 80px;
+    height: 220px;
+    width: auto;
+}
+
+.sweets .croissant{
+    position: relative;
+    top: 80px;
+    left: 13vw;
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+}
+.sweets img{
+    cursor: pointer;
+}
+.sweets img:hover{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+
+.pl1 .donut{
+    position: relative;
+    top: -240px;
+    right: 105px;
+    font-family: perpetua;
+}
+
+.pl1 .cookies{
+    position: relative;
+    top: -470px;
+    left: 270px;
+    font-family: perpetua;
+}
+
+.pl1 .pretzel{
+    position: relative;
+    top: -640px;
+    left: 630px;
+    font-family: perpetua;
+}
+
+.pl1 .shortcake{
+    position: relative;
+    top: -540px;
+    font-family: perpetua;
+}
+
+.pl1 .macaron{
+    position: relative;
+    top: -740px;
+    left: 230px;
+    font-family: perpetua;
+}
+
+.pl1 .croissant{
+    position: relative;;
+    top: -980px;
+    left: 610px;
+    font-family: perpetua;
+}
+
+.drinks{
+    position: relative;
+    top: -900px;
+    font-size: 40px;
+    font-style: italic;
+    align-items: center;
+}
+
+.drinks h1{
+    position: relative;
+    left: 35vw;
+}
+
+.cup .latte{
+    position: relative;
+    top: -900px;
+    height: 240px;
+    width: auto;
+    left: 4vw;
+}
+
+.cup .lemontea{
+    position: relative;
+    top: -900px;
+    height: 260px;
+    width: auto;
+    left: 10vw
+}
+
+.cup .chocolate{
+    position: relative;
+    top: -900px;
+    height: 260px;
+    width: auto;
+    left: 17vw;
+}
+
+.pl2 .latte{
+    position: relative;
+    top: -930px;
+    left: 9vw;
+    font-family: perpetua;
+}
+
+.pl2 .lemontea{
+    position: relative;
+    top: -975px;
+    left: 33vw;
+    font-family: perpetua;
+}
+
+.pl2 .chocolate{
+    position: relative;
+    top: -1020px;
+    left: 58vw;
+    font-family: perpetua;
+}
+
+.closing{
+position: relative;
+    width: 80vw;
+    border-top: 3px black solid;
+    height: 400px;
+    background-color: #644442;
+    top: -809px
+}
+
+.closing h1{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    font-family: georgia;
+    left: 12vw;
+    top: 90px;
+}
+
+.closing h3{
+    position: relative;
+    color: white;
+    left: 30vw;
+    top: 60px;
+}
